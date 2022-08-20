@@ -1,0 +1,67 @@
+.Modal {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    right: 80px;
+    border-style: none;
+    background-color: papayawhip;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0,0.9);
+    background-image: url('./iconmonstr-x-mark-thin-24.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  95% 5% ;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .grid-container {
+    cursor:default;
+    display: grid;
+    height: 500px;
+    grid-template-columns: 50% 50%;
+    
+    
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+
+
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

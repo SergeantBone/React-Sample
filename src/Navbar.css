@@ -1,0 +1,42 @@
+.logo{
+    
+    color: aliceblue;
+    height: 10vh;
+    padding-right: 30px;
+    
+    
+  }
+  .Navvbar{
+
+    display: flex ;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4)
+    
+    
+  }
+  .navvbar1{
+    display: none;
+  }
+  .nav-links{
+    float: right;
+    height: 100%;
+    align-items: center;
+      
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+  }
+  .nav-links li a {
+    color: aliceblue;
+  padding: 50px;
+    text-decoration: none;
+  }

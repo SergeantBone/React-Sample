@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&family=Roboto+Slab:wght@900&display=swap');
+
+/*font-family: 'Kaisei Opti', serif;
+font-family: 'Roboto Slab', serif;*/
+
+
+  .img-text{
+    position:absolute;
+    color:white;
+    
+    font-size: 55px;
+    color: ghostwhite;
+   
+    text-align: center;
+   
+    font-family: 'Kaisei Opti', serif;
+}
+

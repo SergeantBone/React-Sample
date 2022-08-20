@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&family=Roboto+Slab:wght@900&display=swap');
+
+/*font-family: 'Kaisei Opti', serif;
+font-family: 'Roboto Slab', serif;*/
+
+.card-body {
+  display: flex;  
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .port-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+    
+    
+  }
+
+.port-nav ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.port-nav ul li{
+  margin: 150px 10px;
+  color: whitesmoke;
+  justify-content: space-around;
+  padding: 5px 50px;
+  cursor: pointer;
+}
+.port-nav ul li:hover{
+  border-radius: 25px;
+  background-color:  #008CBA ;
+}
+.call_out{
+  display: grid;
+  padding: 0px 80px 2px 80px;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+
+  
+}
+.call_out img{
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+.about-body{
+    background-color: #DE1232;/*rgba(245, 61, 29, 0.829);*/  /*background-color: #FA6BA0;*/
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 500px;
+    
+}
+
+.about-text-body{
+    padding-top: 115px;
+
+}
+
+.about-heading{
+    padding-bottom: 30px;    
+    padding-left: 38px;
+}
+
+.about-text{
+    padding: 0px 40px;
+    
+}
+
+.about-button{
+    position: relative;
+    display: inline-block;
+    top: 8%;
+    left: 5%;
+    
+
+    
+}
